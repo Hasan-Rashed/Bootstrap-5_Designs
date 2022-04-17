@@ -1,0 +1,36 @@
+/* for traversy media */
+
+/* body::before{
+    display: block;
+    content: "";
+    height: 60px;
+}
+
+#map{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+@media(min-width: 768px){
+    .news-input{
+        width: 50%;
+    }
+} */
+
+
+/* for zay shop */
+footer .row a:hover{
+    color: green;
+}
+
+
+
+/* for about */
+.services .row .g-3 :hover{
+    background-color: #2a58d6;
+}
+
+
+
+/* for shop.html */
