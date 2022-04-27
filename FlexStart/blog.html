@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- bootstrap 5 css cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- bootstrap icon cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <!-- font-awesome icon -->
+    <script src="https://kit.fontawesome.com/940427bf4e.js" crossorigin="anonymous"></script>
+
+    <!-- aos cdn -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
+    <title>FlexStart</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 fixed-top shadow">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/img/logo.png" alt="logo" class="img-fluid">
+                <span class="logo-text h2">FlexStart</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link px-3 active" aria-current="page" href="#home">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="#about">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="#service">Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="#portfolio">Portfolio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="#team">Team</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="blog.html">Blog</a>
+                    </li>
+
+                    <!-- start dropdown -->
+                    <div class="dropdown">
+                        <a class="text-decoration-none px-3 dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Dropdown Item 1</a></li>
+                            <li><a class="dropdown-item" href="#">Dropdown Item 2</a></li>
+                            <li><a class="dropdown-item" href="#">Dropdown Item 3</a></li>
+                            <li><a class="dropdown-item" href="#">Dropdown Item 4</a></li>
+                        </ul>
+                    </div>
+                    <!-- end dropdown -->
+
+                    <li class="nav-item">
+                        <a class="nav-link px-3" href="#contact">Contact</a>
+                    </li>
+
+                    <li class="nav-item px-3">
+                        <button type="button" class="btn btn-primary px-5 py-1">Login</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+
+
+    
+    
+    <!-- start blog top -->
+    <section class="pt-5 blog-top">
+        <div class="container">
+            <div class="row pt-5">
+                <div class="col">
+                    <a href="index.html" class="text-light">Home </a> <span class="text-light"> / Blog</span>
+                    <h3 class="py-2 text-light">Blog</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end blog top -->
+
+    
+    <section class="py-5">
+        <div class="container">
+            <div class="row" data-aos="fade-up" data-aos-duration="2000" >
+                <div class="col-md-12 col-lg-8 g-5">
+                    <div class="card">
+                        <img src="./assets/img/blog/blog-1.jpg" alt="blog" class="img-fluid card-img-top">
+
+                        <div class="card-body">
+                            <a class="card-title h3 color text-decoration-none" href="#">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</a><br>
+                            <div class="py-2">
+                                <i class="bi bi-people text-primary"></i><a href="blog-single.html" class="px-2 text-decoration-none text-dark">John Doe</a>
+                                <i class="bi bi-clock text-primary"></i><a href="blog-single.html" class="px-2 text-decoration-none text-dark">Apr 26, 2022</a>
+                                <i class="bi bi-chat-dots text-primary"></i><a href="blog-single.html" class="px-2 text-decoration-none text-dark">12 comments</a>
+                            </div>
+                            <p class="card-text lead py-1 opacity__css">Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta. Et eveniet enim. Qui velit est ea dolorem doloremque deleniti aperiam unde soluta. Est cum et quod quos aut ut et sit sunt. Voluptate porro consequatur assumenda perferendis dolore.</p>
+                            <a href="blog-single.html" class="btn btn-primary color position-absolute bottom-0 end-0">Read More...</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 shadow">
+                    <h5 class="color fw-bolder">Search</h5>
+                    <div class="input-group mb-3 py-2">
+                        <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="searchIcon">
+                    </div>
+
+                    <h5 class="color py-2 fw-bolder">Categories</h5>
+
+                    <div>
+                        <a href="#" class="color text-decoration-none d-block">General <p class="d-inline-block text-dark opacity__css">(25)</p></a>
+                        <a href="#" class="color text-decoration-none d-block">Lifestyle <p class="d-inline-block text-dark opacity__css">(12)</p></a>
+                        <a href="#" class="color text-decoration-none d-block">Travel <p class="d-inline-block text-dark opacity__css">(5)</p></a>
+                        <a href="#" class="color text-decoration-none d-block">Design <p class="d-inline-block text-dark opacity__css">(22)</p></a>
+                        <a href="#" class="color text-decoration-none d-block">Creative <p class="d-inline-block text-dark opacity__css">(8)</p></a>
+                        <a href="#" class="color text-decoration-none d-block">Education <p class="d-inline-block text-dark opacity__css">(14)</p></a>
+                    </div>
+
+                    <h5 class="color py-1 fw-bolder">Recent Posts</h5>
+
+                    <div class="posts">
+                        <div>
+                            <img src="./assets/img/blog/blog-recent-1.jpg" alt="blog-recent" class="img-fluid w-25"> <a href="#" class="color text-decoration-none h6 fw-bolder px-1 align-middle">Nihil blanditiis at in nihil autem</a> 
+                            <p class="opacity__css">Apr 21, 2022</p>
+                        </div>
+                        
+                        <div>
+                            <img src="./assets/img/blog/blog-recent-2.jpg" alt="blog-recent" class="img-fluid w-25"> <a href="#" class="color text-decoration-none h6 fw-bolder px-1 align-middle">Quidem autem et impedit</a> 
+                            <p class="opacity__css">Apr 22, 2022</p>
+                        </div>
+
+                        <div>
+                            <img src="./assets/img/blog/blog-recent-3.jpg" alt="blog-recent" class="img-fluid w-25"> <a href="#" class="color text-decoration-none h6 fw-bolder px-1 align-middle">Id quia et et ut maxime</a> 
+                            <p class="opacity__css">Apr 23, 2022</p>
+                        </div>
+
+                        <div>
+                            <img src="./assets/img/blog/blog-recent-4.jpg" alt="blog-recent" class="img-fluid w-25"> <a href="#" class="color text-decoration-none h6 fw-bolder px-1 align-middle">Laborum corporis quo dara</a> 
+                            <p class="opacity__css">Apr 24, 2022</p>
+                        </div>
+
+                        <div>
+                            <img src="./assets/img/blog/blog-recent-5.jpg" alt="blog-recent" class="img-fluid w-25"> <a href="#" class="color text-decoration-none h6 fw-bolder px-1 align-middle">Et dolores corrupti quae illo quod</a> 
+                            <p class="opacity__css">Apr 25, 2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 2nd row -->
+            <div class="row">
+                <div class="col-md-12 col-lg-8 g-5">
+                    <div class="card">
+                        <img src="./assets/img/blog/blog-2.jpg" alt="blog" class="img-fluid card-img-top">
+
+                        <div class="card-body">
+                            <a class="card-title h3 color text-decoration-none" href="#">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</a><br>
+                            <div class="py-2">
+                                <i class="bi bi-people text-primary"></i><a href="blog-single.html" class="px-2 text-decoration-none text-dark">John Doe</a>
+                                <i class="bi bi-clock text-primary"></i><a href="blog-single.html" class="px-2 text-decoration-none text-dark">Apr 26, 2022</a>
+                                <i class="bi bi-chat-dots text-primary"></i><a href="blog-single.html" class="px-2 text-decoration-none text-dark">12 comments</a>
+                            </div>
+                            <p class="card-text lead py-1 opacity__css">Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta. Et eveniet enim. Qui velit est ea dolorem doloremque deleniti aperiam unde soluta. Est cum et quod quos aut ut et sit sunt. Voluptate porro consequatur assumenda perferendis dolore.</p>
+                            <a href="blog-single.html" class="btn btn-primary color position-absolute bottom-0 end-0">Read More...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3rd row -->
+            <div class="row">
+                <div class="col-md-12 col-lg-8 g-5">
+                    <div class="card">
+                        <img src="./assets/img/blog/blog-3.jpg" alt="blog" class="img-fluid card-img-top">
+
+                        <div class="card-body">
+                            <a class="card-title h3 color text-decoration-none" href="#">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</a><br>
+                            <div class="py-2">
+                                <i class="bi bi-people text-primary"></i><a href="blog-single.html" class="px-2 text-decoration-none text-dark">John Doe</a>
+                                <i class="bi bi-clock text-primary"></i><a href="blog-single.html" class="px-2 text-decoration-none text-dark">Apr 26, 2022</a>
+                                <i class="bi bi-chat-dots text-primary"></i><a href="blog-single.html" class="px-2 text-decoration-none text-dark">12 comments</a>
+                            </div>
+                            <p class="card-text lead py-1 opacity__css">Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta. Et eveniet enim. Qui velit est ea dolorem doloremque deleniti aperiam unde soluta. Est cum et quod quos aut ut et sit sunt. Voluptate porro consequatur assumenda perferendis dolore.</p>
+                            <a href="blog-single.html" class="btn btn-primary color position-absolute bottom-0 end-0">Read More...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4th row -->
+            <div class="row">
+                <div class="col-md-12 col-lg-8 g-5">
+                    <div class="card">
+                        <img src="./assets/img/blog/blog-4.jpg" alt="blog" class="img-fluid card-img-top">
+
+                        <div class="card-body">
+                            <a class="card-title h3 color text-decoration-none" href="#">Dolorum optio tempore voluptas dignissimos cumque fuga qui quibusdam quia</a><br>
+                            <div class="py-2">
+                                <i class="bi bi-people text-primary"></i><a href="blog-single.html" class="px-2 text-decoration-none text-dark">John Doe</a>
+                                <i class="bi bi-clock text-primary"></i><a href="blog-single.html" class="px-2 text-decoration-none text-dark">Apr 26, 2022</a>
+                                <i class="bi bi-chat-dots text-primary"></i><a href="blog-single.html" class="px-2 text-decoration-none text-dark">12 comments</a>
+                            </div>
+                            <p class="card-text lead py-1 opacity__css">Similique neque nam consequuntur ad non maxime aliquam quas. Quibusdam animi praesentium. Aliquam et laboriosam eius aut nostrum quidem aliquid dicta. Et eveniet enim. Qui velit est ea dolorem doloremque deleniti aperiam unde soluta. Est cum et quod quos aut ut et sit sunt. Voluptate porro consequatur assumenda perferendis dolore.</p>
+                            <a href="blog-single.html" class="btn btn-primary color position-absolute bottom-0 end-0">Read More...</a>
+                        </div>
+                    </div>
+
+                    <div class="py-3 pagination text-center">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- start footer section -->
+    <footer class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-4 g-5">
+                    <a href="index.html" class="text-decoration-none"><img src="./assets/img/logo.png" alt="logo"><span class="logo-text h2 color fw-bolder">FlexStart</span></a>
+                    <p class="p-2">Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada <br> terra videa magna derita valies darta donna mare fermentum iaculis eu <br> non diam phasellus.</p>
+
+                    <!-- social icons -->
+                    <div>
+                        <a href="#" class="text-decoration-none"><i class="bi bi-facebook text-dark p-1 h5"></i></a>
+                        <a href="#" class="text-decoration-none"><i class="bi bi-twitter text-dark p-1 h5"></i></a>
+                        <a href="#" class="text-decoration-none"><i class="bi bi-google text-dark p-1 h5"></i></a>
+                        <a href="#" class="text-decoration-none"><i class="bi bi-linkedin text-dark p-1 h5"></i></a>
+                        <a href="#" class="text-decoration-none"><i class="bi bi-youtube text-dark p-1 h5"></i></a>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-2 g-5 text-start">
+                    <h5 class="color">USEFUL LINKS</h5>
+                    <div class="p-1"><i class="bi bi-chevron-right text-dark"></i><a href="#" class="text-decoration-none color">Home</a></div>
+                    <div class="p-1"><i class="bi bi-chevron-right text-dark"></i><a href="#" class="text-decoration-none color">About Us</a></div>
+                    <div class="p-1"><i class="bi bi-chevron-right text-dark"></i><a href="#" class="text-decoration-none color">Services</a></div>
+                    <div class="p-1"><i class="bi bi-chevron-right text-dark"></i><a href="#" class="text-decoration-none color">Terms of service</a></div>
+                    <div class="p-1"><i class="bi bi-chevron-right text-dark"></i><a href="#" class="text-decoration-none color">Privacy Policy</a></div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 g-5 text-start">
+                    <h5 class="color">OUR SERVICES</h5>
+                    <div class="p-1"><i class="bi bi-chevron-right text-dark"></i><a href="#" class="text-decoration-none color">Web Designer</a></div>
+                    <div class="p-1"><i class="bi bi-chevron-right text-dark"></i><a href="#" class="text-decoration-none color">Web Development</a></div>
+                    <div class="p-1"><i class="bi bi-chevron-right text-dark"></i><a href="#" class="text-decoration-none color">Product Management</a></div>
+                    <div class="p-1"><i class="bi bi-chevron-right text-dark"></i><a href="#" class="text-decoration-none color">Marketing</a></div>
+                    <div class="p-1"><i class="bi bi-chevron-right text-dark"></i><a href="#" class="text-decoration-none color">Graphic Design</a></div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 g-3 m-md-auto">
+                    <h5 class="color">CONTACT US</h5>
+                    <address>
+                        A108 Adam Street <br> 
+                        New York, NY 535022 <br>
+                        United States <br> <br>
+
+                        <strong>Phone: </strong> <p class="d-inline">+1 5589 55488 55</p><br>
+                        <strong>Email: </strong> <p class="d-inline">hasanrashed537@gmail.com</p>
+                    </address>
+                </div>
+            </div>
+        </div>
+
+        <!-- to go up to the top -->
+        <a href="#" class="position-absolute bottom-0 end-0">
+            <i class="bi bi-arrow-up-circle h1 color"></i>
+        </a>
+    </footer>
+    <!-- end footer section -->
+
+    <!-- start footer bottom -->
+    <section class="foot-bottom py-3 text-center">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col mx-auto">
+                    <!-- copyright -->
+                    <p class="color">&copy; copyright <strong class="fw-bolder">Rashed.</strong> All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end footer bottom -->
+
+    <!-- bootstrap 5 js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- aos js cdn -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- pure counter js -->
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+    <script>
+        new PureCounter();
+    </script>
+</body>
+</html>

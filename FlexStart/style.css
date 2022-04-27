@@ -1,0 +1,318 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+.color{
+    color: #012970;
+}
+
+.opacity__css{
+    opacity: 0.3;
+}
+
+/* start btn-outline-purple */
+.btn-outline-purple:hover{
+    color: #012970;
+    outline: 1px solid #012970;
+}
+/* end btn-outline-purple */
+
+.navbar .logo-text{
+    font-weight: 600;
+    color: #012970;
+}
+
+.navbar .dropdown:hover .dropdown-menu{
+    display: block;
+    margin-top: 0;
+}
+
+.navbar .collapse .nav-item .nav-link{
+    color: #013289;
+}
+
+.navbar .collapse .dropdown .dropdown-toggle{
+    color: #013289;
+}
+
+
+/* home section */
+.home{
+    background-image: url('assets/img/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.home .h1{
+    color: #013289;
+    font-weight: bolder;
+}
+
+.home .gray-h3{
+    color: #515152;
+}
+
+/* about section */
+.about h6{
+    color: #013289;
+    font-weight: 800;
+}
+
+.about h3{
+    color: #012970;
+    font-weight: 600;
+}
+
+.about__h6{
+    color: #4154F1;
+}
+
+.about__h1{
+    color: #012970;
+}
+
+/* for card */
+.about__card__img{
+    transition: transform 0.5s;
+}
+
+.about__card__img:hover{
+    transform: scale(0.9);
+}
+
+.about__card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+
+/* for count section */
+.count__icon{
+    color: #3d4de2;
+}
+
+.bi-journal-richtext{
+    color: #EE6C20
+}
+
+.bi-headset{
+    color: #15BE56;
+}
+
+.bi-people{
+    color: #BB0852;
+}
+
+
+/* features section */
+.features__p{
+    color: #4343d8;
+}
+
+.features__block:hover .bi-check{
+    background-color: #4343d8;
+}
+
+
+/* services section */
+.card-blue:hover{
+    background-color: #2DB6FA;
+    color: white;
+}
+
+.card-blue a, i{
+    color: #2DB6FA;
+}
+
+.card-blue:hover a, i{
+    color: white;
+}
+
+.card-yellow:hover{
+    background-color: #F68C09;
+    color: white;
+}
+
+.card-yellow a, i{
+    color: #F68C09;
+}
+
+.card-yellow:hover a, i{
+    color: white;
+}
+
+.card-green:hover{
+    background-color: #08DA4E;
+    color: white;
+}
+
+.card-green a, i{
+    color: #08DA4E;
+}
+
+.card-green:hover a, i{
+    color: white;
+}
+
+.card-red:hover{
+    background-color: #E9222C;
+    color: white;
+}
+
+.card-red a, i{
+    color: #E9222C;
+}
+
+.card-red:hover a, i{
+    color: white;
+}
+
+.card-purple:hover{
+    background-color: #B50EDF;
+    color: white;
+}
+
+.card-purple a, i{
+    color: #B50EDF;
+}
+
+.card-purple:hover a, i{
+    color: white;
+}
+
+.card-pink:hover{
+    background-color: #F51F9C;
+    color: white;
+}
+
+.card-pink a, i{
+    color: #F51F9C;
+}
+
+.card-pink:hover a, i{
+    color: white;
+}
+
+
+/* Pricing section */
+.pricing_zoom{
+    transition: transform 0.5s;
+}
+
+.pricing_zoom:hover{
+    transform: scale(1.1);
+}
+
+/* portfolio section */
+.portfolio-ul li button{
+    color: black
+}
+
+.portfolio__zoom img{
+    transition: transform 0.5s;
+}
+
+.portfolio__zoom:hover img{
+    transform: scale(1.1);
+    opacity: 0.3;
+}
+
+.m-auto{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    visibility: hidden;
+}
+
+.portfolio__zoom:hover .m-auto{
+    visibility: visible;
+}
+
+
+/* for team section */
+.social{
+    position: absolute;
+    top: 8%;
+    right: 3%;
+    background-color: #9e9ea0;
+    visibility: hidden;
+    transition: transform 0.5s;
+}
+
+.team__card{
+    transition: transform 0.5s;
+}
+
+.team__card:hover{
+    transform: scale(1.1);
+}
+
+.team__card:hover .social{
+    visibility: visible;
+    transform: scale(1.1);
+}
+
+.social:hover .bi{
+    background-color: #fff;
+} 
+
+
+/* for clients section */
+.client__img{
+    opacity: 0.5;
+}
+
+.client__img:hover{
+    opacity: 1;
+}
+
+
+/* for blog section */
+.blog__img{
+    transition: transform 0.5s;
+}
+
+.blog__card:hover .blog__img{
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+/* for contact us section */
+/* .address{
+    background-color: #f1f7fd;
+} */
+
+/* for form */
+.form__col{
+    position: relative;
+    top: 0;
+}
+
+/* for footer */
+footer {
+    background-image: url('assets/img/footer-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.foot-bottom{
+    background-color: #F6F9FF;
+}
+
+
+
+
+
+
+
+
+
+
+/* for blog section */
+.blog-top{
+    background-color: #012970;
+}
+
+.blog-top a:hover{
+    text-decoration: underline;
+}

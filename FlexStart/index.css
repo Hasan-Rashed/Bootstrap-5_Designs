@@ -1,0 +1,20 @@
+.intro{
+    color: #0e2083;
+}
+
+.intro .class2{
+    background-color: #22830e;
+}
+
+/* in div a p */
+div p{
+    color:  #fff;
+}
+
+div > p { //parent selector
+    color: red;
+}
+
+h1 + p{ // immediate sibling
+    color: #fff;
+}
